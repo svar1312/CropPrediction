@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Crop Yield Predictor</title>
+    </head>
+    <body>
+        <center><h1>More Yielding Crop Predictor</h1>
+        <form name="form" method="POST"><br>
+            Nitogen: <input type="number" step="any" name="n" required/><br>
+            Phosphorus: <input type="number" step="any" name="p" required/><br>
+            Potassium: <input type="number" step="any" name="k" required/><br>
+            Temperature: <input type="number" step="any" name="temp" required/><br>
+            Humidity: <input type="number" step="any" name="hum" required/><br>
+            pH: <input type="number" name="ph" step="any" required/><br>
+            Rainfall: <input type="number" name="rain" step="any" required/><br><br>
+            <button value="Submit">Predict</button><br><br>
+        </form>
+        <b>{{ output }}</b></center>
+    </body>
+</html>
